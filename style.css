@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+main{
+width: 75%;
+margin: 10px auto;
+border: 1px solid #ddd;
+color: white;
+display: grid;
+grid-template-rows: 60px 100px 200px 60px;
+grid-template-columns: repeat(3,1fr) 150px;
+grid-gap: 10px;
+}
+
+ .div1{ background-color: aqua;
+    grid-column: 1/-1;
+}
+ .div2{ background-color:cornflowerblue;}
+ .div3{ background-color:greenyellow;}
+ .div4{ background-color: green;}
+ .div5{ background-color:goldenrod;
+      grid-row: 2/4; grid-column: 4/5;
+      text-align:center;
+}
+ .div6{ background-color:darkorchid;
+      grid-column: 1/4;
+}
+ .div7{ background-color:mediumspringgreen;
+   grid-column: 1/-1;
+}
